@@ -89,12 +89,12 @@
     var month = new Date().getMonth() + 1;
     var dateDay = new Date().getDate();
     // 设置标题
-    if (month == 2 && dateDay == 12) {
-      $(document).attr("title", "together" + parseInt(years - 2017) + "Years begin with first meeting and end with old age.");
-    } else if (dateDay == 12) {
-      $(document).attr("title", "together" + parseInt(days / 30) + "Months, starting from the first meeting and ending with old age.");
+    if (month == 4 && dateDay == 7) {
+      $(document).attr("title", "Together" + parseInt(years - 2023) + "Years begin with first meeting and end with old age.");
+    } else if (dateDay == 7) {
+      $(document).attr("title", "Together" + parseInt(days / 30) + "Months, starting from the first meeting and ending with old age.");
     } else
-    $(document).attr("title", "together" + days + "Heaven begins with first meeting and ends with old age.");
+    $(document).attr("title", "Together " + days + "Heaven begins with first meeting and ends with old age.");
     document.writeln(
       "<div class=\"snow\" style=\"height:100%; position:fixed; left:0px; top:0px;right:0px; bottom:0px; pointer-events: none;z-index: 9999;\"><canvas width=\"1904\" height=\"913\" style=\"position:absolute;left: 0;top: 0;\"></canvas></div>"
     );
