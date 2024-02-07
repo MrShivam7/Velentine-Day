@@ -34,7 +34,8 @@
 
 body {
   position: relative;
-  background: #f7d7da;
+  /* background: #f7d7da; */
+  background: linear-gradient(rgb(0, 0, 0), rgb(4, 82, 146));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,7 +157,7 @@ ul {
 .intro {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #3E4149;
+  color: linear-gradient(rgb(0, 0, 0), rgb(4, 82, 146));
   position: relative;
   left: -10px;
 }
@@ -164,7 +165,7 @@ ul {
 .date>span {
   font-size: 36px;
   position: relative;
-  color: #3E4149;
+  color: linear-gradient(rgb(0, 0, 0), rgb(4, 82, 146));
 }
 
 .date-text {
@@ -187,7 +188,7 @@ ul {
   position: relative;
   font-size: 32px;
   margin-top: 20px;
-  color: #1c1c1d;
+  color: linear-gradient(rgb(0, 0, 0), rgb(4, 82, 146));
   display: flex;
   align-items: center;
   cursor: pointer;
